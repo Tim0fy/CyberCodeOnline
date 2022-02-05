@@ -2,9 +2,10 @@
   "variables": [
     "itemName", "tierName", "itemType"
   ],
-  "REMINDER": [
-    "The ${itemName} already includes the tier name, as the tier name is part of the name, example, 'Trash Pistal'"
-  ],
+  "REMINDER": {
+ 	 	 	"trans_ru": "В ${itemName} уже включено название уровня, поскольку название уровня является частью названия, например, 'Trash Pistal'",
+ 	 	 	"eng": "The ${itemName} already includes the tier name, as the tier name is part of the name, example, 'Trash Pistal'"
+ 	 	},
   "lores": {
     "TRASH": [
       "A broken and battered ${itemName} held together by glue & duct tape. True to its ${tierName} designation, it barely functions as a ${itemType}.",
